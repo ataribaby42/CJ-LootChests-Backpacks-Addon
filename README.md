@@ -49,3 +49,8 @@ Thanks Hunterz and CJ187 for original CJ187-LootChest mod.
 https://steamcommunity.com/sharedfiles/filedetails/?id=2345073965
 https://freesound.org/people/jackthemurray/sounds/429401/
 https://thenounproject.com/icon/backpack-1070891/
+
+### LICENSE
+Mod is open source and you are free to modify, repack and publish. If you fix or enhance it please consider push it to me for intergration into official version.
+
+Steam Workshop link: https://steamcommunity.com/sharedfiles/filedetails/?id=2994594944
