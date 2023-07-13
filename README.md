@@ -1,7 +1,7 @@
 # CJ-LootChests-Backpacks-Addon
 Adds backacks as possible "chests" into CJ Loot Chests mod. Currently Taloon and Mountain backpacks are included.
 
-New class names:
+**New class names:**
 
 ```
 CJ_LootChest_TaloonBag_Blue
@@ -14,7 +14,7 @@ CJ_LootChest_MountainBag_Orange
 CJ_LootChest_MountainBag_Green
 ```
 
-Do not forget to add them to your types:
+**Do not forget to add them to your types:**
 
 ```
 <type name="CJ_LootChest_MountainBag_Blue">
