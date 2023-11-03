@@ -48,6 +48,7 @@ Thanks Hunterz and CJ187 for original CJ187-LootChest mod.
 ### CREDITS
 https://steamcommunity.com/sharedfiles/filedetails/?id=2345073965
 https://freesound.org/people/jackthemurray/sounds/429401/
+https://freesound.org/people/100139062/sounds/662503/
 https://thenounproject.com/icon/backpack-1070891/
 
 ### LICENSE
