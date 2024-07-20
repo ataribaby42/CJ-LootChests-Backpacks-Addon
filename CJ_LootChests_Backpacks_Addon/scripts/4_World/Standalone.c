@@ -43,4 +43,19 @@ class CJ_LootChest_HuntingBag_Base : CJ_WoodenCrate_Base
 	}
 };
 
+class CJ_LootChest_QuiltedJacket_Base : CJ_WoodenCrate_Base 
+{    
+	override void SoundChestOpenPlay()
+	{
+		EffectSound sound =	SEffectManager.PlaySound( "LootJacketOpenZip_SoundSet", GetPosition() );
+		sound.SetSoundAutodestroy( true );
+	}
+	
+	override void SetActions()
+	{
+		super.SetActions();
+		AddAction(ActionWoodenLootChestOpen);
+	}
+};
+
 

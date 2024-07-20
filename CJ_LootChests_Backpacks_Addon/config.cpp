@@ -453,6 +453,186 @@ class CfgVehicles
 			"\dz\characters\backpacks\data\hunting_co.paa"
 		};
 	};
+	class CJ_LootChest_QuiltedJacket_Base: CJ_WoodenCrate_Base
+	{
+		scope=0;
+		displayName="Quilted Supply Jacket";
+		itemsCargoSize[]={6,5};
+		descriptionShort="Jacket to store some supplies.";
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		model="\DZ\characters\tops\QuiltedJacket_g.p3d";
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=1000;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"DZ\characters\tops\Data\QuiltedJacket.rvma"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"DZ\characters\tops\Data\QuiltedJacket.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"DZ\characters\tops\Data\QuiltedJacket_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"DZ\characters\tops\Data\QuiltedJacket_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"DZ\characters\tops\Data\QuiltedJacket_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+			class GlobalArmor
+			{
+				class Projectile
+				{
+					class Health
+					{
+						damage=0;
+					};
+					class Blood
+					{
+						damage=0;
+					};
+					class Shock
+					{
+						damage=0;
+					};
+				};
+				class FragGrenade
+				{
+					class Health
+					{
+						damage=0;
+					};
+					class Blood
+					{
+						damage=0;
+					};
+					class Shock
+					{
+						damage=0;
+					};
+				};
+			};
+		};
+	};
+	class CJ_LootChest_QuiltedJacket_Black: CJ_LootChest_QuiltedJacket_Base
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"\dz\characters\tops\data\QuiltedJacket_black_co.paa",
+			"\dz\characters\tops\data\QuiltedJacket_black_co.paa",
+			"\dz\characters\tops\data\QuiltedJacket_black_co.paa"
+		};
+	};
+	class CJ_LootChest_QuiltedJacket_Green: CJ_LootChest_QuiltedJacket_Base
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"\dz\characters\tops\data\QuiltedJacket_green_co.paa",
+			"\dz\characters\tops\data\QuiltedJacket_green_co.paa",
+			"\dz\characters\tops\data\QuiltedJacket_green_co.paa"
+		};
+	};
+	class CJ_LootChest_QuiltedJacket_Blue: CJ_LootChest_QuiltedJacket_Base
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"\dz\characters\tops\data\QuiltedJacket_blue_co.paa",
+			"\dz\characters\tops\data\QuiltedJacket_blue_co.paa",
+			"\dz\characters\tops\data\QuiltedJacket_blue_co.paa"
+		};
+	};
+	class CJ_LootChest_QuiltedJacket_Red: CJ_LootChest_QuiltedJacket_Base
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"\dz\characters\tops\data\QuiltedJacket_red_co.paa",
+			"\dz\characters\tops\data\QuiltedJacket_red_co.paa",
+			"\dz\characters\tops\data\QuiltedJacket_red_co.paa"
+		};
+	};
+	class CJ_LootChest_QuiltedJacket_Grey: CJ_LootChest_QuiltedJacket_Base
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"\dz\characters\tops\data\QuiltedJacket_grey_co.paa",
+			"\dz\characters\tops\data\QuiltedJacket_grey_co.paa",
+			"\dz\characters\tops\data\QuiltedJacket_grey_co.paa"
+		};
+	};
+	class CJ_LootChest_QuiltedJacket_Orange: CJ_LootChest_QuiltedJacket_Base
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"\dz\characters\tops\data\QuiltedJacket_orange_co.paa",
+			"\dz\characters\tops\data\QuiltedJacket_orange_co.paa",
+			"\dz\characters\tops\data\QuiltedJacket_orange_co.paa"
+		};
+	};
+	class CJ_LootChest_QuiltedJacket_Yellow: CJ_LootChest_QuiltedJacket_Base
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"\dz\characters\tops\data\QuiltedJacket_yellow_co.paa",
+			"\dz\characters\tops\data\QuiltedJacket_yellow_co.paa",
+			"\dz\characters\tops\data\QuiltedJacket_yellow_co.paa"
+		};
+	};
+	class CJ_LootChest_QuiltedJacket_Violet: CJ_LootChest_QuiltedJacket_Base
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"\dz\characters\tops\data\QuiltedJacket_violet_co.paa",
+			"\dz\characters\tops\data\QuiltedJacket_violet_co.paa",
+			"\dz\characters\tops\data\QuiltedJacket_violet_co.paa"
+		};
+	};
 };
 class CfgSoundShaders
 {
@@ -482,14 +662,41 @@ class CfgSoundShaders
 		range=10;
 		volume=10;
 	};
+	class LootJacketOpenZip_SoundShader
+	{
+		samples[]=
+		{
+			
+			{
+				"CJ_LootChests_Backpacks_Addon\sound\zip_jacket_open",
+				1
+			}
+		};
+		range=10;
+		volume=10;
+	};
 };
 class CfgSoundSets
 {
+	class LootBackpackOpen_SoundSet
+	{
+		soundShaders[]=
+		{
+			"LootBackpackOpen_SoundShader"
+		};
+	};
 	class LootBackpackOpenNoZip_SoundSet
 	{
 		soundShaders[]=
 		{
 			"LootBackpackOpenNoZip_SoundShader"
+		};
+	};
+	class LootJacketOpenZip_SoundSet
+	{
+		soundShaders[]=
+		{
+			"LootJacketOpenZip_SoundShader"
 		};
 	};
 };
