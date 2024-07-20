@@ -78,11 +78,11 @@ CJ_LootChest_QuiltedJacket_Violet
 Thanks Hunterz and CJ187 for original CJ187-LootChest mod.
 
 ### CREDITS
-https://steamcommunity.com/sharedfiles/filedetails/?id=2345073965
-https://freesound.org/people/jackthemurray/sounds/429401/
-https://freesound.org/people/100139062/sounds/662503/
-https://freesound.org/people/150128/sounds/326663/
-https://thenounproject.com/icon/backpack-1070891/
+<p>https://steamcommunity.com/sharedfiles/filedetails/?id=2345073965</p>
+<p>https://freesound.org/people/jackthemurray/sounds/429401/</p>
+<p>https://freesound.org/people/100139062/sounds/662503/</p>
+<p>https://freesound.org/people/150128/sounds/326663/</p>
+<p>https://thenounproject.com/icon/backpack-1070891/</p>
 
 ### LICENSE
 Mod is open source and you are free to modify, repack and publish. If you fix or enhance it please consider push it to me for intergration into official version.
