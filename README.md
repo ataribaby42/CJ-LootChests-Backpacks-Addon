@@ -1,17 +1,20 @@
 # CJ-LootChests-Backpacks-Addon
-Adds backacks as possible "chests" into CJ Loot Chests mod. Currently Taloon and Mountain backpacks are included.
+Adds backacks as possible "chests" into CJ Loot Chests mod.
 
 **New class names:**
 
 ```
-CJ_LootChest_TaloonBag_Blue
-CJ_LootChest_TaloonBag_Green
-CJ_LootChest_TaloonBag_Orange
-CJ_LootChest_TaloonBag_Violet
 CJ_LootChest_MountainBag_Blue
 CJ_LootChest_MountainBag_Red
 CJ_LootChest_MountainBag_Orange
 CJ_LootChest_MountainBag_Green
+CJ_LootChest_TaloonBag_Blue
+CJ_LootChest_TaloonBag_Green
+CJ_LootChest_TaloonBag_Orange
+CJ_LootChest_TaloonBag_Violet
+CJ_LootChest_HuntingBag
+CJ_LootChest_TortillaBag
+CJ_LootChest_TortillaBag_Winter
 CJ_LootChest_QuiltedJacket_Black
 CJ_LootChest_QuiltedJacket_Green
 CJ_LootChest_QuiltedJacket_Blue
@@ -47,6 +50,15 @@ CJ_LootChest_QuiltedJacket_Violet
         <lifetime>604800</lifetime>
 </type>
 <type name="CJ_LootChest_TaloonBag_Violet">
+        <lifetime>604800</lifetime>
+</type>
+<type name="CJ_LootChest_HuntingBag">
+        <lifetime>604800</lifetime>
+</type>
+<type name="CJ_LootChest_TortillaBag">
+        <lifetime>604800</lifetime>
+</type>
+<type name="CJ_LootChest_TortillaBag_Winter">
         <lifetime>604800</lifetime>
 </type>
 <type name="CJ_LootChest_QuiltedJacket_Black">
