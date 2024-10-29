@@ -12,7 +12,17 @@ class CfgPatches
 			"CJ_LootChest_MountainBag_Red",
 			"CJ_LootChest_MountainBag_Orange",
 			"CJ_LootChest_MountainBag_Green",
-			"CJ_LootChest_HuntingBag"
+			"CJ_LootChest_HuntingBag",
+			"CJ_LootChest_TortillaBag",
+			"CJ_LootChest_TortillaBag_Winter",
+			"CJ_LootChest_QuiltedJacket_Black",
+			"CJ_LootChest_QuiltedJacket_Green",
+			"CJ_LootChest_QuiltedJacket_Blue",
+			"CJ_LootChest_QuiltedJacket_Red",
+			"CJ_LootChest_QuiltedJacket_Grey",
+			"CJ_LootChest_QuiltedJacket_Orange",
+			"CJ_LootChest_QuiltedJacket_Yellow",
+			"CJ_LootChest_QuiltedJacket_Violet"
 		};
 		weapons[]={};
 		requiredVersion=0.1;
@@ -451,6 +461,126 @@ class CfgVehicles
 			"\dz\characters\backpacks\data\hunting_co.paa",
 			"\dz\characters\backpacks\data\hunting_co.paa",
 			"\dz\characters\backpacks\data\hunting_co.paa"
+		};
+	};
+	class CJ_LootChest_TortillaBag_Base: CJ_WoodenCrate_Base
+	{
+		scope=0;
+		displayName="Combat Supply Backpack";
+		itemsCargoSize[]={10,9};
+		descriptionShort="Backpack to store some supplies.";
+		hiddenSelections[]=
+		{
+			"camoGround",
+			"camoMale",
+			"camoFemale"
+		};
+		model="\dz\characters\backpacks\tortilla_g.p3d";
+		class DamageSystem
+		{
+			class GlobalHealth
+			{
+				class Health
+				{
+					hitpoints=1000;
+					healthLevels[]=
+					{
+						
+						{
+							1,
+							
+							{
+								"DZ\Characters\backpacks\data\tortila.rvmat"
+							}
+						},
+						
+						{
+							0.69999999,
+							
+							{
+								"DZ\Characters\backpacks\data\tortila.rvmat"
+							}
+						},
+						
+						{
+							0.5,
+							
+							{
+								"DZ\Characters\backpacks\data\tortila_damage.rvmat"
+							}
+						},
+						
+						{
+							0.30000001,
+							
+							{
+								"DZ\Characters\backpacks\data\tortila_damage.rvmat"
+							}
+						},
+						
+						{
+							0,
+							
+							{
+								"DZ\Characters\backpacks\data\tortila_destruct.rvmat"
+							}
+						}
+					};
+				};
+			};
+			class GlobalArmor
+			{
+				class Projectile
+				{
+					class Health
+					{
+						damage=0;
+					};
+					class Blood
+					{
+						damage=0;
+					};
+					class Shock
+					{
+						damage=0;
+					};
+				};
+				class FragGrenade
+				{
+					class Health
+					{
+						damage=0;
+					};
+					class Blood
+					{
+						damage=0;
+					};
+					class Shock
+					{
+						damage=0;
+					};
+				};
+			};
+		};
+	};
+	class CJ_LootChest_TortillaBag: CJ_LootChest_TortillaBag_Base
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"\dz\characters\backpacks\data\tortila_co.paa",
+			"\dz\characters\backpacks\data\tortila_co.paa",
+			"\dz\characters\backpacks\data\tortila_co.paa"
+		};
+	};
+	class CJ_LootChest_TortillaBag_Winter: CJ_LootChest_TortillaBag_Base
+	{
+		scope=2;
+		hiddenSelectionsTextures[]=
+		{
+			"\dz\characters\backpacks\data\tortila_winter_co.paa",
+			"\dz\characters\backpacks\data\tortila_winter_co.paa",
+			"\dz\characters\backpacks\data\tortila_winter_co.paa"
 		};
 	};
 	class CJ_LootChest_QuiltedJacket_Base: CJ_WoodenCrate_Base
